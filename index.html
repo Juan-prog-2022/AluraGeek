@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alurageek</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Alurageek - Productos</h1>
+    </header>
+    <nav>
+        <a href="#" id="show-home">Inicio</a>
+        <a href="#" id="show-products">Productos</a>
+        <a href="#" id="show-categories">Categorías</a>
+        <a href="#" id="show-form">Agregar Producto</a>
+        <a href="#" id="show-sales">Ventas</a>
+    </nav>    
+    <main>
+        <div class="product-container" id="product-container"></div>
+        <div class="form-container" id="form-container" style="display: none;">
+            <h2>Agregar Producto</h2>
+            <form id="product-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="categoria">Categoría:</label>
+                <input type="text" id="categoria" name="categoria" required><br>
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" name="precio" required><br>
+                <label for="stock">Stock:</label>
+                <input type="number" id="stock" name="stock" required><br>
+                <label for="imagen">Imagen:</label>
+                <input type="text" id="imagen" name="imagen" required><br>
+                <button type="submit">Agregar Producto</button>
+            </form>
+        </div>
+        <div id="category-container">
+            <div id="categories" class="categories"></div>
+        </div>        
+        <div class="carousel-container" id="carousel-container" style="display: none;">
+            <h2>Productos Destacados</h2>
+            <div class="carousel" id="carousel"></div>
+        </div>
+        <div class="sales-container" id="sales-container" style="display: none;">
+            <h2>Ventas</h2>
+            <table id="sales-table">
+                <thead>
+                    <tr>
+                        <th>Venta ID</th>
+                        <th>Producto ID</th>
+                        <th>Usuario ID</th>
+                        <th>Cantidad</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se agregarán las filas de la tabla -->
+                </tbody>
+            </table>
+        </div>        
+    </main>
+    <footer>
+        <p>&copy; 2024 Created By Juan Quiroz</p>
+        <div class="social-media">
+            <!-- Ejemplo de iconos de Font Awesome -->
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
+     

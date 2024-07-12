@@ -1,0 +1,32 @@
+{
+  "productos": [
+    { "id": 1, "nombre": "Soporte Apoya Celular Ajustable Escritorio Universal Mesa", "categoria_id": 4, "precio": 2000, "stock": 10, "imagen":"../images/soporte_celular.jpeg", "destacado": true},
+    { "id": 2, "nombre": "Cargador Samsung Original Samsung S24 S24 Plus Ultra", "categoria_id": 4, "precio": 32000, "stock": 100, "imagen":"../images/cargador_celular.jpeg", "destacado": false },
+    { "id": 3, "nombre": "Parlante Portatil Bluetooth Retroiluminado Usb Tarjeta Sd Color Negro", "categoria_id": 3, "precio": 20, "stock": 100, "imagen":"../images/parlante_portatil.jpeg", "destacado": true},
+    { "id": 4, "nombre": "Notebook Lenovo IdeaPad Blue AMD Ryzen 3 5300U 8GB de RAM 256GB SSD 120 Hz 1920x1080px Windows 11 Home", "categoria_id": 1, "precio": 900000, "stock": 100, "imagen":"../images/laptop_lenovo.jpeg", "destacado": false},
+    { "id": 5, "nombre": "Monitor Led Samsung 24'' Ips 75hz", "categoria_id": 1, "precio": 220.000, "stock": 100, "imagen":"../images/monitor_pc.jpeg", "destacado": true},
+    { "id": 6, "nombre": "Auricular Gamer Melon Pc Ps4 Con Microfono Ajustable M5000 Color Azul", "categoria_id": 3, "precio": 24.000, "stock": 100, "imagen":"../images/auricular_pc.jpeg", "destacado": false},
+    { "id": 7, "nombre": "Celular Samsung Galaxy A14 128 GB Plateado 4 GB RAM", "categoria_id": 2, "precio": 400.000, "stock": 100, "imagen":"../images/celu_a_14.jpeg", "destacado": false },
+    { "id": 8, "nombre": "Celular Motorola Moto G54 5G 128 GB Verde 4 GB RAM", "categoria_id": 2, "precio": 450.000, "stock": 10, "imagen":"../images/celu_motorola.jpeg", "destacado": true },
+    { "id": 9, "nombre": "Funda Tpu Soft Silicona Para Xiaomi Mi 8 Lite", "categoria_id": 4, "precio": 10000, "stock": 10, "imagen":"../images/funda_celular.jpeg", "destacado": false },
+    { "id": 10, "nombre": "Brazalete Celular Correr Running Impermeable Premium", "categoria_id": 4, "precio": 5000, "stock": 10, "imagen":"../images/brazalete_celular.jpeg", "destacado": false }
+  ],
+  "categorias": [
+    { "id": 1, "nombre": "Computación", "imagen": "../images/img-computacion.jpg" },
+    { "id": 2, "nombre": "Electrónica", "imagen": "../images/img-electronica.jpg" },
+    { "id": 3, "nombre": "Audio", "imagen": "../images/img-audio.jpg" },
+    { "id": 4, "nombre": "Accesorios", "imagen": "../images/img-accesorios.jpg" }
+  ],
+  "ventas": [
+    { "id": 1, "producto_id": 1, "usuario_id": 1, "cantidad": 1, "fecha": "2024-01-01" },
+    { "id": 2, "producto_id": 2, "usuario_id": 2, "cantidad": 2, "fecha": "2024-01-02" }
+  ],
+  "usuarios": [
+    { "id": 1, "nombre": "Juan Pérez", "email": "juan@example.com", "rol_id": 1 },
+    { "id": 2, "nombre": "María López", "email": "maria@example.com", "rol_id": 2 }
+  ],
+  "roles": [
+    { "id": 1, "nombre": "Administrador" },
+    { "id": 2, "nombre": "Cliente" }
+  ]
+}
